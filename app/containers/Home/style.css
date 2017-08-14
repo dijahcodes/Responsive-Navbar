@@ -1,7 +1,32 @@
 /* Home Styles */
-
 .container {
   display:flex;
   flex-direction:column;
   min-height:100vh;
+  background-color: #FFFFFF;
+}
+.navbar {
+  padding:20px;
+  background-color: #EF6F6C;
+  color: #FFFFFF;
+
+}
+a {
+  color: #FFFFFF;
+  padding: 20px;
+  margin: 20px;
+  text-decoration: none;
+}
+a:hover {
+    background-color: #FFFFFF;
+    color: #EF6F6C;
+}
+
+
+h1 {
+  border: 2px solid;
+  width: 80px;
+  padding: 10px;
+  margin: 20px;
+
 }
