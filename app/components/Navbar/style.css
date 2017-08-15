@@ -1,0 +1,36 @@
+/* Navbar Styles */
+.navBar {
+  display: flex;
+  flex-direction: row;
+  background: #404040;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;;
+  align-items: center;
+  color: #93BA93;
+
+
+}
+.siteName {
+  width: 30%;
+  font-size: 2em;
+  margin-left: 15px;
+  font-variant: normal;
+}
+.nav {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+.navButton {
+  color: #93BA93;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: normal;
+  font-variant:normal;
+}
+.menuIcon {
+  display: none;
+}
