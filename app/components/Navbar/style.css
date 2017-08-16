@@ -8,6 +8,7 @@
   justify-content: space-between;;
   align-items: center;
   color: #93BA93;
+  ;
 
 
 }
@@ -16,6 +17,7 @@
   font-size: 2em;
   margin-left: 15px;
   font-variant: normal;
+  font-family: 'Roboto Mono', sans-serif;
 }
 .nav {
   width: 70%;
@@ -23,6 +25,7 @@
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 15px;
+
 }
 .navButton {
   color: #93BA93;
@@ -30,7 +33,11 @@
   margin-right: 15px;
   font-weight: normal;
   font-variant:normal;
+  font-family: 'Roboto Mono', sans-serif;
 }
 .menuIcon {
   display: none;
+}
+.navButton:hover {
+
 }
